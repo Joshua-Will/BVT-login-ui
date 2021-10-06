@@ -18,7 +18,7 @@ html,body {
 
 .card {
     border-style: solid;
-    border-width: 4px;
+    border-width: 2px;
     border-radius: 12px;
     border-color: rgba(160, 160, 160, 0.2);
     min-width: 290px;
@@ -29,7 +29,7 @@ html,body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 21px 3px rgba(160, 160, 160, 0.24);
+    box-shadow: 12px 12px 21px 3px rgba(160, 160, 160, 0.24);
 }
 
 .login-fields {
@@ -62,4 +62,20 @@ html,body {
     border: 0;
     width: 70%;
     height: 50px;
+  }
+
+  button:active {
+      transform: scale(0.98);
+      background: rgba(0, 62, 143, 0.692);
+      box-shadow: 2px 2px 6px 3px rgba(77, 77, 77, 0.5);
+      color: black;
+
+  }
+
+  #loginForm {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
   }
